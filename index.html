@@ -32,10 +32,13 @@
                             <a class="nav-link" href="./page/Blog.html">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Snake</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Football</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sonic</a>
                         </li>
                     </ul>
                 </div>
@@ -43,35 +46,43 @@
         </nav>
     </header>
     <main>
-    <!--Titulo-->
-    <div class="titulo">
-        <h1>Mini Juegos Jax</h1>
-        <p>Una divertida pagina con 3 mini juegos para divertirse</p>
-    </div>
-    <!--carrusel-->
-    <div id="contItemsCarrusel">
-        <div class="itemCarrusel" id="itemCarrusel1">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel1"><img src="img/serpiente" alt="Snake"></div>
-            <div class="flechascarrusel">
-                <a href="#itemCarrusel3"><i><i class="fa-sharp fa-solid fa-arrow-left"></i></i></a>
-                <a href="#itemCarrusel2"><i><i class="fa-solid fa-arrow-right"></i></i></a>
-            </div>
+        <!--Titulo-->
+        <div class="titulo">
+            <h1>Mini Juegos Jax</h1>
+            <p>Una divertida pagina con 3 mini juegos para divertirse</p>
         </div>
-        <div class="itemCarrusel" id="itemCarrusel2">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel2"><img src="img/sonic.webp" alt="Sonic"></div>
-            <div class="flechascarrusel">
-                <a href="#itemCarrusel1"><i><i class="fa-sharp fa-solid fa-arrow-left"></i></i></a>
-                <a href="#itemCarrusel3"><i><i class="fa-solid fa-arrow-right"></i></i></a>
+        <!--carrusel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-        </div>
-        <div class="itemCarrusel" id="itemCarrusel3">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel3"><img src="img/penales.jpg" alt="Penales Futbol"></div>
-            <div class="flechascarrusel">
-                <a href="#itemCarrusel2"><i><i class="fa-sharp fa-solid fa-arrow-left"></i></i></a>
-                <a href="#itemCarrusel1"><i><i class="fa-solid fa-arrow-right"></i></i></a>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/Atajar penales.jfif" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Blue_Spheres.webp" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Snake.png" class="d-block w-100" alt="..." />
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </div>
     </main>
     <!---->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

@@ -4,31 +4,6 @@
     box-sizing: border-box;
 }
 
-#contItemsCarrusel{
-    height: 500px;
-    overflow: hidden;
-}
-
-.itemCarrusel{
-    height: 100%;
-    position: relative;
-}
-
-.tarjetaCarrusel{
-    height: 100%;
-}
-
-.flechascarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
 footer a{
     text-decoration: none;
     color: black;
